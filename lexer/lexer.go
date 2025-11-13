@@ -1,7 +1,6 @@
 package lexer
 
 import "monkey/token"
-import "fmt"
 
 type Lexer struct {
 	input string
