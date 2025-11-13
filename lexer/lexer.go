@@ -30,8 +30,6 @@ func (l *Lexer) readChar() {
 func (l *Lexer) NextToken() token.Token {
 	var tok token.Token
 
-	fmt.Println(l.ch)
-
 	l.skipWhitespace()
 
 	switch l.ch {
