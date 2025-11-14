@@ -1,3 +1,5 @@
+// Package lexer for the monkey programming language.
+// Does currently not support integers and non ASCII characters.
 package lexer
 
 import "monkey/token"
