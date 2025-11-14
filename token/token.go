@@ -1,4 +1,5 @@
-package token 
+// Package token. Defines tokens for the lexer
+package token
 
 type TokenType string
 
