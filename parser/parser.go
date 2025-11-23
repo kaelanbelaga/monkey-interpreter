@@ -1,4 +1,4 @@
-// Package parser. The parser for the monkey compiler
+// Package parser. The parser for the monkey interpreter
 package parser
 
 import (
