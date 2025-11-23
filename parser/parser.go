@@ -19,7 +19,7 @@ func New(l *lexer.Lexer) *Parser {
 
 	// Read 2 tokens for peekToken and curToken to be set
 	p.nextToken()
-	p.l.NextToken()
+	p.nextToken()
 
 	return p
 }
